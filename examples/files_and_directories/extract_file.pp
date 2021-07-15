@@ -1,4 +1,4 @@
- # REWRITE REQUIRES https://forge.puppet.com/modules/puppet/archive 
+ # REQUIRES https://forge.puppet.com/modules/puppet/archive 
 
   $install_path        = '/opt/wso2'
   $package_name        = 'wso2esb'
