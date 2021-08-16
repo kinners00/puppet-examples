@@ -1,0 +1,10 @@
+{
+     "description": "This is a description for my Linux task",
+     "input_method": "environment",
+     "parameters": {
+       "myparam": {
+           "description": "This is a description for myparam",
+            "type": "Optional[String]"
+      }
+     }
+   }
