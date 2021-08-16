@@ -1,0 +1,7 @@
+{
+  "description": "This is a description for my Cross Platform task",
+  "implementations": [
+    { "name": "cross_platform_desc_only.sh", "requirements": ["shell"] },
+    { "name": "cross_platform_desc_only.ps1", "requirements": ["powershell"] }
+  ]
+}
