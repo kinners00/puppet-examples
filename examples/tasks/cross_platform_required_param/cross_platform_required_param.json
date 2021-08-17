@@ -7,7 +7,7 @@
     }
   },
   "implementations": [
-    { "name": "cross_platform_param.sh", "requirements": ["shell"] },
-    { "name": "cross_platform_param.ps1", "requirements": ["powershell"] }
+    { "name": "cross_platform_required_param.sh", "requirements": ["shell"] },
+    { "name": "cross_platform_required_param.ps1", "requirements": ["powershell"] }
   ]
 }

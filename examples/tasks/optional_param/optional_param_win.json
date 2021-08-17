@@ -1,0 +1,10 @@
+{
+     "description": "This is a description for my Windows task",
+     "input_method": "powershell",
+     "parameters": {
+       "myparam": {
+           "description": "This is a description for myparam",
+            "type": "Optional[String]"
+      }
+     }
+   }
