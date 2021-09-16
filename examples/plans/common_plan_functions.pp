@@ -29,6 +29,6 @@ plan adhoc::common_plan_functions (
   #  }
 
   # $content = 'Hello, world!'
-  # write_file($content, '/Users/me/hello.txt', $targets)
+  # write_file($content, '/Users/me/test.txt', $targets)
 
 }
