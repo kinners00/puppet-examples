@@ -1,5 +1,3 @@
-
-  # REVIEW / CHANGE
   file { '/etc/mysql/conf.d/tuning.cnf':
     ensure => 'present',
     source => [
