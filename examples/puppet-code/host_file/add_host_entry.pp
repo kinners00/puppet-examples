@@ -1,4 +1,4 @@
-  # TEST REQUIRES https://forge.puppet.com/modules/puppetlabs/host_core
+  # REQUIRES https://forge.puppet.com/modules/puppetlabs/host_core
 
 # Basic example 
   host { 'syslog':
