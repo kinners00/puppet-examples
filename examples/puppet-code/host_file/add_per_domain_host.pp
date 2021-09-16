@@ -1,4 +1,4 @@
-  # TEST REQUIRES https://forge.puppet.com/modules/puppetlabs/host_core
+  # REQUIRES https://forge.puppet.com/modules/puppetlabs/host_core
 
   $ip = $::domain ? {
           /production/ => '10.10.10.10',
