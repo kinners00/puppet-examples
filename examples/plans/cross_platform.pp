@@ -19,7 +19,7 @@ out::message('Running mytask')
   if ($win_targets) {
     run_task('adhoc::mytaskwin', $win_targets, {'mytaskvar' => 'hello world' })
   } elsif ($nix_targets) {
-    run_task('adhhoc::mytasknix', $nix_targets, {'mytaskvar' => 'hello world' })
+    run_task('adhoc::mytasknix', $nix_targets, {'mytaskvar' => 'hello world' })
   } else  {
     fail_plan('OS is not compatible!')
   }
