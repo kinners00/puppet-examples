@@ -1,8 +1,3 @@
 # Examples
-WIP - Add table of contents
 
-## Desired State Code
-
-## Tasks
-
-## Plans
+This repo contains examples for desired state puppet code, tasks and plans.
