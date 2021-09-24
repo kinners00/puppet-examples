@@ -1,4 +1,5 @@
-  # REQUIRES https://forge.puppet.com/modules/saz/limits
+  # Requires https://forge.puppet.com/modules/saz/limits
+
   class { 'limits':}
 
     limits::limits { '*/core':
@@ -7,7 +8,7 @@
       limit_type => 'nofile',
       hard       => 16384,
     }
-# hard and soft limits
+  # Hard and soft limits
     limits::limits { '*/memlock':
       ensure     => present,
       user       => 'joeblogs',

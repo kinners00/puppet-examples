@@ -1,5 +1,5 @@
+# Requires https://forge.puppet.com/modules/puppetlabs/apt
 
-# requires https://forge.puppet.com/modules/puppetlabs/apt
 apt::source { 'puppetlabs':
   location => 'http://apt.puppetlabs.com',
   repos    => 'main',

@@ -1,5 +1,5 @@
+# Requires https://forge.puppet.com/modules/puppet/zypprepo
 
-  # requires https://forge.puppet.com/modules/puppet/zypprepo
 zypprepo { 'openSUSE_12.1':
   ensure        => present,
   baseurl       => 'http://download.opensuse.org/distribution/12.1/repo/oss/suse/',

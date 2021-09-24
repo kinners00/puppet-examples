@@ -1,4 +1,5 @@
-   # REQUIRES https://forge.puppet.com/modules/puppetlabs/host_core
+# Requires https://forge.puppet.com/modules/puppetlabs/host_core
+
   host { 'syslog':
     ensure => 'absent',
   }

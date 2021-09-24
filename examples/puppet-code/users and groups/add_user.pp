@@ -1,10 +1,10 @@
-  # basic example
+  # Windows basic example
   user { 'Joe Bloggs':
     ensure   => 'present',
     password => 'mypassword123',
   }
 
-  # groups example
+  # Windows groups example
   user { 'Joe Bloggs':
     ensure   => present,
     password => 'mypassword123',

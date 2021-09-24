@@ -1,4 +1,5 @@
 # requires https://forge.puppet.com/modules/puppet/yum
+
   class { 'yum':
     config_options => {
         my_cachedir => {
@@ -13,13 +14,11 @@
     }
   }
 
+# Manage yum.conf entries via defined types
+  yum::config { 'installonly_limit':
+    ensure => 2,
+  }
 
-# manage yum.conf entries via defined types
-
-yum::config { 'installonly_limit':
-  ensure => 2,
-}
-
-yum::config { 'debuglevel':
-  ensure => absent,
-}
+  yum::config { 'debuglevel':
+    ensure => absent,
+  }

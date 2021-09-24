@@ -1,4 +1,4 @@
-  # REQUIRES https://forge.puppet.com/modules/puppet/logrotate
+  # Requires https://forge.puppet.com/modules/puppet/logrotate
 
     logrotate::rule { 'backups':
     path         => '/var/log/backups',

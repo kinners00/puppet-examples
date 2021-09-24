@@ -1,5 +1,3 @@
-# CHECK
-
   service { 'cron':
     ensure => 'running',
   }

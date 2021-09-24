@@ -1,9 +1,9 @@
-  # minimum required.
+  # Minimum required.
   group { 'logusers':
     ensure => 'present',
   }
 
-  # create a group with a specific GID.
+  # Create a group with a specific GID.
   group { 'stats':
     gid => 2001,
   }

@@ -1,7 +1,6 @@
   # The two examples below create the same relationship
-  
-  
-  # add subscribe to the service resource
+
+  # Add subscribe to the service resource
   service { 'sshd':
     ensure    => running,
     enable    => true,
@@ -15,14 +14,14 @@
 }
 
 
-  # or
-  
+  # OR
+
   service { 'sshd':
-    ensure    => running,
-    enable    => true,
+    ensure => running,
+    enable => true,
   }
 
-  # add a notify to the file resource
+  # Add a notify to the file resource
   file { '/etc/ssh/sshd_config':
     ensure => file,
     mode   => '0600',

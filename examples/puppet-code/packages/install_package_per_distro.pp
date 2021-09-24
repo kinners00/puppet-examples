@@ -1,4 +1,4 @@
-  # determine the apache-server package based on the operatingsystem fact
+  # Determine the apache-server package based on the operatingsystem fact
   $apache_server = $::operatingsystem ? {
     Fedora  => 'httpd',
     default => 'apache2',

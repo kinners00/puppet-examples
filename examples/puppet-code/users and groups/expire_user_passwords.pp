@@ -1,11 +1,11 @@
-  # nix example
+  # Nix example
   user { 'Joe Bloggs':
     ensure           => 'present',
     password         => 'mypassword123',
     password_max_age => 30,
   }
 
-    # windows example
+  # Windows example
   user { 'Joe Bloggs':
     ensure           => present,
     password         => 'mypassword123',

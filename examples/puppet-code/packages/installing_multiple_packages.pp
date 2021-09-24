@@ -1,4 +1,4 @@
-  # the first, most obvious solution is
+  # The obvious but least efficient solution 
   package { 'screen':
     ensure => 'installed'
   }
@@ -10,7 +10,7 @@
   }
 
 
-  # you can use a global package parameter
+  # You can use a global package parameter
   Package {
     ensure => 'installed'
   }
@@ -19,19 +19,9 @@
   package { 'strace':}
   package { 'sudo':}
 
-  # you can specify the packages in an array ...
+  # A more efficient method - specify packages in an array
   $packages = [ 'screen', 'strace', 'sudo' ]
 
   package { $packages:
     ensure => 'installed'
   }
-
-
-  # ... and even combine it a global package parameter
-  $packages = [ 'screen', 'strace', 'sudo' ]
-
-  Package {
-    ensure => 'installed'
-  }
-
-  package { $enhancers: }
